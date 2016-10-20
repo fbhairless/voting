@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Voting Information</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Information Pamphlet</h1>
+      <div id="age">
+        <form>
+          <div class="form-group">
+            <label for="voterAge">Enter your age in years:</label>
+            <input type="text" id="voterAge" class="form-control">
+          </div>
+          <button class="btn btn-success" type="submit"id="submitter">Submit</button>
+        </form>
+      </div> <!-- .age -->
+      <div id="overSeventeen">
+        <h2 class="sorry">Please find your voter pamphlet information attached.</h2>
+        <p>For the complete version of your Oregon General Election voter pamphlet for 2016 <a href="http://oregonvotes.gov/voters-guide/english/votersguide.html">click-here</a></p>
+        <div class="row">
+          <div class="col-lg-6" id="pictures">
+            <a href="https://www.donaldjtrump.com/"><img class="presPic" src="img/trump.jpeg"></a>
+          </div>
+          <div class="col-lg-6" id="pictures">
+            <a href="https://www.hillaryclinton.com/"><img class="presPic" src="img/clinton.jpeg"></a>
+          </div>
+        </div>
+      </div>
+      <div id="underEighteen">
+        <h2 class="sorry">Sorry You have more time to maintain your innocence!</h2>
+      </div>
+    </div> <!-- .container -->
+
+  </body>
+</html>
